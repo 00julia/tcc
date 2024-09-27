@@ -255,10 +255,12 @@ header {
 }
 
 .instituicao img {
-    width: 100%;
+    width: 80%; /* Diminui o tamanho da imagem para 80% da largura do container */
     height: auto;
     margin-bottom: 10px;
+    object-fit: cover; /* Mantém a proporção da imagem dentro do espaço disponível */
 }
+
 
 button {
     background-color: #0033cc;
