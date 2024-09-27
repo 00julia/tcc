@@ -277,6 +277,7 @@ header {
     height: auto;
     margin-bottom: 5px;
     object-fit: cover; /* Mantém a proporção da imagem dentro do espaço disponível */
+    
 }
 
 
