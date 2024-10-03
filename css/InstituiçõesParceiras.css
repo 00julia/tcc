@@ -212,6 +212,7 @@ nav {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
 }
 
 body {
@@ -288,12 +289,12 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 15px;
     position: absolute;
     left: 50%;
     bottom: -20px; /* Para que o botão fique meio para fora */
     transform: translateX(-50%);
-    width: 150px;
+    width: 190px;
     font-family: "Phudu", system-ui;
 
 }
