@@ -207,12 +207,33 @@ nav {
   }
 
   /*  */
-.subT{
 
-}
-.subT-img{
+
+
+  
+  .subT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre a imagem e o texto */
+    margin-top: 20px;
+    margin-left: 20vw; /* fazer iguinorar a navbar */
+    white-space: nowrap; /* Garante que o texto e imagens fiquem em uma única linha */
+    width: calc(100% - 20vw); /* Garante que o conteúdo ocupe o espaço total restante sem contar a barra */
+    color: #0232B5;
+    font-size: 24px;
+    
     
 }
+.T1{
+    margin-left: 21vw; /* fazer iguinorar a navbar */
+    width: calc(100% - 20vw);
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    
+}
+
+
   /*  */
   .Titulo {
     font-size: 3rem; /* Tamanho do título */
