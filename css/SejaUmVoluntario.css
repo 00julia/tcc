@@ -208,9 +208,6 @@ nav {
 
   /*  */
 
-
-
-  
   .subT {
     display: flex;
     align-items: center;
@@ -238,26 +235,27 @@ nav {
   /*  */
 
   .Titulo1 {
-    margin-left: 20vw; /* Descontar a largura da navbar */
+    margin-left: 24vw; 
     width: calc(100% - 20vw);
-    max-width: 900px; 
+    max-width: 900px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
-    padding-top: 50px; /* Adicione um padding superior para manter o título mais afastado do topo */
-    padding-bottom: 10px; /* Controle o espaço abaixo */
+    padding-top: 30px; /* Ajuste para dar mais espaço no topo */
+    padding-bottom: 5px; /* Reduzir espaço embaixo */
+   
 }
 
 .Titulo {
-    font-size: 2rem;
+    font-size: 2.5rem; /* Aumentar o tamanho para destacar mais */
     color: #0232B5;
-    max-width: 60%;
     text-align: center;
     font-family: 'Phudu', sans-serif;
-    font-weight: 600;
-    margin-top: 0; /* Sem margem superior */
-    margin-bottom: 20px; /* Margem menor abaixo do título */
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
+
 
 .instituicoes-container {
     display: flex;
@@ -316,5 +314,4 @@ button {
     transform: translateX(-50%);
     width: 190px;
     font-family: "Phudu", system-ui;
-
 }
